@@ -9,10 +9,10 @@ export default function Footer() {
           {/* About */}
           <div>
             <h3 className="text-xl font-bold text-earth-50 font-marathi mb-3">
-              बळीवंश चळवळ
+              बळिवंश लोकचळवळ
             </h3>
             <p className="text-earth-400 text-sm leading-relaxed">
-              शेतकऱ्यांसाठी लढणारी चळवळ. सिंदखेडराजा व देऊळगाव राजा,
+              शेतकऱ्यांचा शास्वत विकास. सिंदखेडराजा व देऊळगाव राजा,
               बुलढाणा जिल्हा, महाराष्ट्र.
             </p>
             <p className="text-earth-500 text-xs mt-3">
@@ -48,28 +48,28 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold text-earth-50 mb-3">संपर्क</h3>
             <div className="flex flex-col gap-3">
-              <a
+              
                 href="tel:+919665558999"
                 className="flex items-center gap-2 text-earth-400 hover:text-saffron-400 text-sm transition-colors"
               >
                 <Phone size={16} />
                 <span>+91 96655 58999</span>
               </a>
-              <a
+              
                 href="tel:+917030125130"
                 className="flex items-center gap-2 text-earth-400 hover:text-saffron-400 text-sm transition-colors"
               >
                 <Phone size={16} />
                 <span>+91 70301 25130</span>
               </a>
-              <a
+              
                 href="mailto:ganeshmdoifode@gmail.com"
                 className="flex items-center gap-2 text-earth-400 hover:text-saffron-400 text-sm transition-colors"
               >
                 <Mail size={16} />
                 <span>ganeshmdoifode@gmail.com</span>
               </a>
-              <a
+              
                 href="https://www.facebook.com/profile.php?id=61551057593710"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -84,7 +84,7 @@ export default function Footer() {
 
         <div className="mt-10 pt-6 border-t border-earth-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-earth-500 text-xs">
-            &copy; {new Date().getFullYear()} बळीवंश चळवळ (Balivansh Chalval).
+            &copy; {new Date().getFullYear()} बळिवंश लोकचळवळ (Balivansh Lokchalval).
             All rights reserved.
           </p>
           <p className="text-earth-600 text-xs flex items-center gap-1">
